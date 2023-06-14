@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+}
+#buscar{
+    font-weight: 700;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+    color: #2ba6a7;
+    border-radius: 25px;
+    border: #2ba6a7 1px solid;
+    background-color: white;
+}
+#add{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    background-color: #32d1b2;
+    color: white;
+    font-weight: 900;
+    border-radius: 100%;
+    border: #32d1b2 1px solid;
+    margin-bottom: 20px;
+    line-height: 22.5px;
+}
+#crear-cuenta{
+    height: 25px;
+    width: 150px;
+    color: white;
+    background-color: #3678e4;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1.5px 0px rgba(0,0,0,0.75);
+}
