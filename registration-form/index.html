@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Registro</title>
+    <style>
+      .radio {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.radio input[type="radio"] {
+  display: inline-block;
+  margin-right: 5px;
+  
+}
+    </style>
+  </head>
+  <body>
+    <h1>Formulario de Registro</h1>
+
+    <form>
+      <label for="nombre">Nombre:*</label>
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+      <label for="apellido">Apellido:*</label>
+      <input type="text" id="apellido" name="apellido" required /><br /><br />
+
+      <label for="correo">Correo:*</label>
+      <input type="email" id="correo" name="correo" required /><br /><br />
+
+      <label for="contrasena">Contraseña:*</label>
+      <input
+        type="password"
+        id="contrasena"
+        name="contrasena"
+        required
+      /><br /><br />
+
+      <label for="confirmar-contrasena">Confirmar Contraseña:*</label>
+      <input
+        type="password"
+        id="confirmar-contrasena"
+        name="confirmar-contrasena"
+        required
+      /><br /><br />
+
+      <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+      <input
+        type="date"
+        id="fecha-nacimiento"
+        name="fecha-nacimiento"
+        required
+      /><br /><br />
+
+      <div class="radio">
+        <input
+          type="radio"
+          id="masculino"
+          name="genero"
+          value="Masculino"
+          required
+        />
+        <label for="masculino">Masculino</label>
+      </div>
+
+      <div class="radio">
+        <input
+          type="radio"
+          id="femenino"
+          name="genero"
+          value="Femenino"
+          required
+        />
+        <label for="femenino">Femenino</label>
+      </div>
+
+      <div class="radio">
+        <input
+          type="radio"
+          id="no-binario"
+          name="genero"
+          value="No binario"
+          required
+        />
+        <label for="no-binario">No binario</label>
+      </div>
+
+      <div class="radio">
+        <input
+          type="radio"
+          id="no-decir"
+          name="genero"
+          value="Prefiero no decirlo"
+          required
+        />
+        <label for="no-decir">Prefiero no decirlo</label>
+      </div><br>
+
+      <label for="descripcion">Una descripción corta sobre mí:</label><br />
+      <textarea
+        id="descripcion"
+        name="descripcion"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+
+      <label for="lenguaje">Lenguaje favorito:</label>
+      <select id="lenguaje" name="lenguaje" required>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="C">C</option>
+        <option value="C#">C#</option></select
+      ><br /><br />
+
+      <input type="checkbox" id="actualizaciones" name="actualizaciones" />
+      <label for="actualizaciones"
+        >Sí, quiero recibir emails de actualizaciones</label
+      ><br /><br />
+
+      <p>* Los marcados son obligatorios</p>
+      <input type="submit" value="Crear Cuenta" />
+      
+    </form>
+  </body>
+</html>
