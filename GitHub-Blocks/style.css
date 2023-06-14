@@ -1,0 +1,33 @@
+
+.container{
+    max-width: 950px;
+    background-color: #EAEFDE;
+    padding: 5px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: #7586a7;
+    font-family: sans-serif;
+}
+img{
+width: 250px;
+height: 250px;
+}
+.row{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+#row1{
+    justify-content: space-between;
+    background-color: #5AC6F4;
+}
+#row2{
+    justify-content: space-around;
+    background-color:#D8A2AA ;
+}
+#row3{
+    justify-content: space-between;
+    background-color: white;
+}
