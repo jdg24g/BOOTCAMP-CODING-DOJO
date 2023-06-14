@@ -4,30 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      li {
+        display: inline;
+        text-decoration: none;
+      }
+      ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+      }
+      table {
+        border-collapse: collapse;
+        
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+        
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+      thead tr td{
+        font-size: larger;
+        font-weight: bold;
+      }
+    </style>
     <title>Portafolio</title>
   </head>
   <body>
     <h1>Jonathan Gimenez</h1>
-    <img src="img/profile.png" alt="Foto-perfil" width="200px" />
+    <img src="img/profile.png" alt="Foto-perfil" width="250" />
     <nav>
       <ul>
         <li>
-          <a href="http://github.com/jdg24g"
+          <a target="_blank" href="http://github.com/jdg24g"
             ><i class="fa-brands fa-github"></i> Github</a
           >
         </li>
         <li>
-          <a href="http://github.com/jdg24g"
+          <a target="_blank" href="https://www.linkedin.com/in/jdgg/"
             ><i class="fa-brands fa-linkedin"></i> Linkedin</a
           >
         </li>
         <li>
-          <a href="http://github.com/jdg24g"
+          <a target="_blank" href="mailto:jdg24g@gmail.com"
             ><i class="fa-solid fa-envelope"></i> Email</a
           >
         </li>
       </ul>
     </nav>
+    <h2>Tecnologias</h2>
     <table>
       <thead>
         <tr>
@@ -62,6 +94,48 @@
         </tr>
       </tbody>
     </table>
+    <h2>Social Snakes</h2>
+    <div class="apps">
+      <a href="https://jdg24g.github.io/laParada/" target="_blank">
+        <img src="img/git.png" alt="laParada" width="150" />
+      </a>
+      <p>
+        Aplicacion hecha en html, css y js a
+        <a target="_blank" href="https://github.com/jdg24g/laParada">CODE</a> |
+        <a target="_blank" href="https://jdg24g.github.io/laParada/">DEPLOY</a>
+      </p>
+    </div>
+    <h2>Contactame</h2>
+    <form>
+      <label for="name">Nombre</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Escribe tu Nombre"
+      />
+
+      <label for="lname">Apellido</label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Escribe tu Apellido"
+      />
+
+      <br />
+      <label for="msg">Mensaje</label>
+      <br />
+      <textarea
+        name="msg"
+        id="msg"
+        cols="50"
+        rows="5"
+        placeholder="Deja tu Mensaje"
+      ></textarea>
+      <br />
+      <button type="submit">Enviar Mensaje</button>
+    </form>
 
     <script
       src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"
