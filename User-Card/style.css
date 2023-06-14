@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+.banner {
+  background-color: #2EA2B8;
+  height: 125px;
+  margin-bottom: 70px;
+}
+.informacion h1,
+.informacion h2,
+.informacion h3,
+.informacion p {
+  margin: 15px 30px;
+}
+.informacion {
+  padding: 20px;
+}
+.foto-perfil {
+  border-radius: 50%;
+  padding: 5px;
+  margin: 20px 100px;
+  background-color: #fff;
+  height: 190px;
+  border: 5px solid black;
+}
+.icon-s {
+  height: 20px;
+}
+a {
+  color: #3a81e6;
+  text-decoration: none;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+/* Utilize la solution por que no conseguia mover el perfil la ubicacion que queria y mi error era que deje la foto de perfil un div aparte */
