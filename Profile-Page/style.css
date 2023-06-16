@@ -5,8 +5,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-
-
 /* tarjeta */
 .flex-container {
   max-width: 1000px;
@@ -66,3 +64,68 @@
   color: blue;
 }
 /* tarjeta */
+
+/* navbar */
+nav {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.nav-title{
+  color: white;
+}
+
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+.link {
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+.btn {
+  height: 25px;
+  color: white;
+  width: 100px;
+  background-color: #3678e4;
+  border: 1px solid black;
+  box-shadow: 3px 3px 1.5px 0px rgba(0, 0, 0, 0.75);
+}
+h1,
+ul {
+  line-height: 2em;
+  cursor: pointer;
+}
+.active {
+  font-weight: 900;
+  text-shadow: 3px rgba(0, 0, 0, 0.75);
+}
+.link:hover {
+  color: aqua;
+}
+.btn:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+/* navbar */
+.row{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.col-1{
+  flex-basis: 60%;
+  padding: 20px;
+  margin: 10px;
+}
+.col-2{
+  flex-basis: 40%;
+  padding: 20px;
+  margin: 10px;
+}
