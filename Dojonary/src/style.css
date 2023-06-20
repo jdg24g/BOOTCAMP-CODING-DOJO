@@ -13,26 +13,16 @@ a.btn {
   font-weight: 800;
   text-decoration: none;
   padding: 10px 10px;
-  border-radius: 10px;
   align-items: center;
   box-shadow: 0px 0px 10px 0px #2d2d2d;
-}
-.icon {
-  margin-left: 10px;
+  min-width: 50.6px;
+  text-align: center;
 }
 a.btn:hover {
   background-color: #5482d0;
 }
 a.btn:active {
   transform: scale(0.95);
-}
-.flex-container {
-  max-width: 1000px;
-  min-width: auto;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 nav {
   max-width: 1200px;
@@ -52,4 +42,7 @@ nav {
 }
 #buscar::placeholder {
   text-align: center;
+}
+main{
+  display: flex;
 }
